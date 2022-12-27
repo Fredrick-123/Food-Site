@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content="Daniel Nicholas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food | Daniel Nicholas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/fork.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAV BAR -->
+    <header>
+        <a href="#banner" class="logo">Food<span>.</span></a>
+        <div class="menu_toggle" onclick="toggle_menu()"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggle_menu()">Home</a></li>
+            <li><a href="#about" onclick="toggle_menu()">About</a></li>
+            <li><a href="#menu" onclick="toggle_menu()">Menu</a></li>
+            <li><a href="#experts" onclick="toggle_menu()">Chefs</a></li>
+            <li><a href="#testimonials" onclick="toggle_menu()">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggle_menu()">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- HOME -->
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Make Good Choices</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ut illo tempora ipsa veritatis quibusdam dicta facilis 
+                labore voluptatibus doloremque! Dolor dignissimos vero accusamus, praesentium molestiae minima!</p>
+                <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="colum50">
+                <h2 class="title_text"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat officiis sunt eius nulla ratione odio quasi atque
+                     incidunt magnam enim laboriosam dicta culpa corrupti minus eaque dolorum accusantium repudiandae tempore porro, 
+                     quas distinctio minima itaque? At illum quidem accusamus nostrum distinctio, soluta aperiam minus esse iusto, quae doloribus. 
+                     Nemo, ducimus.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cum sunt quisquam? Veritatis, temporibus quasi! Architecto, aperiam. 
+                     Accusantium magni amet deserunt tempora, veritatis facilis dolorum totam iste ad harum mollitia!
+                    </p>
+            </div>
+            <div class="column50">
+                <div class="image_box">
+                    <img src="./images/img1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="title_text">Our <span>M</span>enu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/menu1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Salad</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/menu2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Soup</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/menu3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Pasta</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/menu4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Salad</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/menu5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Soup</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/menu6.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Salad</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="title">
+            <a href="#menu" class="btn">View All</a>
+        </div>
+    </section>
+
+    <!-- CHEFS -->
+    <section class="experts" id="experts">
+        <div class="title">
+            <h2 class="title_text">Our <span>C</span>hefs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/expert1.jpg">
+                </div>
+                <div class="text">
+                    <h2>Famous Chef</h2>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/expert2.jpg">
+                </div>
+                <div class="text">
+                    <h2>Famous Chef</h2>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/expert3.jpg">
+                </div>
+                <div class="text">
+                    <h2>Famous Chef</h2>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/expert4.jpg">
+                </div>
+                <div class="text">
+                    <h2>Famous Chef</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="title_text">They <span>S</span>aid About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/testi1.jpg">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor nam harum? Totam sed, nobis eius veniam sapiente eos consequatur nemo impedit corporis vero, aperiam, repellat tenetur saepe laboriosam ipsam.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/testi2.jpg">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor nam harum? Totam sed, nobis eius veniam sapiente eos consequatur nemo impedit corporis vero, aperiam, repellat tenetur saepe laboriosam ipsam.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image_box">
+                    <img src="./images/testi3.jpg">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor nam harum? Totam sed, nobis eius veniam sapiente eos consequatur nemo impedit corporis vero, aperiam, repellat tenetur saepe laboriosam ipsam.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="title_text"><span>C</span>ontact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="contact_form">
+            <h3>Send Message</h3>
+            <div class="input_box">
+                <input type="text" placeholder="Name">
+            </div>
+
+            <div class="input_box">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input_box">
+                <textarea placeholder="Your thoughts"></textarea>
+            </div>
+
+            <div class="input_box">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+    <!-- COPYRIGHT TEXT -->
+    <div class="copyright">
+        <p>Copyright 2021 <a href="mailto:danielnicholas1477@gmail.com?subject=FROM MY WEBSITE" target="_blank">Daniel Nicholas.</a> All Rights Reserved</p>
+    </div>
+
+    <!-- SCRIPT TAG -->
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
